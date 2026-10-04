@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SHUtoECNU 的个人主页 · 个人介绍、技能、项目与经历。">
+  <meta name="theme-color" content="#f7f5fc">
+  <title>SHUtoECNU · 个人主页</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳转到正文</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="SHUtoECNU，返回首页">
+        <span class="brand-mark" aria-hidden="true">S<span>·</span></span>
+        <span class="brand-copy">SHUtoECNU<span>/ personal space</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false"><span>导航</span><span class="menu-icon" aria-hidden="true"></span></button>
+      <nav id="site-nav" class="site-nav" aria-label="主页导航">
+        <a href="#about">~/about</a>
+        <a href="#skills">~/skills</a>
+        <a href="#projects">~/projects</a>
+        <a href="#experience">~/experience</a>
+        <a href="#contact">~/contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="tiny-cross" aria-hidden="true">✳</span> SHUtoECNU / PERSONAL HOMEPAGE</p>
+          <!-- 替换：展示名称、一句话介绍、个人简介 -->
+          <h1 id="hero-title">[展示名称]<br><span class="accent">[一句话介绍]</span><span class="title-period">。</span></h1>
+          <p class="hero-description">[个人简介]</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">查看项目</a>
+            <a class="button button-secondary" href="https://github.com/SHUtoECNU" target="_blank" rel="noopener noreferrer"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M9 19c-4.3 1.3-4.3-2.2-6-2.7m12 5v-3.8a3.3 3.3 0 0 0-.9-2.6c3-.3 6.2-1.5 6.2-6.8a5.3 5.3 0 0 0-1.5-3.7 4.9 4.9 0 0 0-.1-3.7s-1.2-.4-3.9 1.4a12.7 12.7 0 0 0-7 0C5.1.3 3.9.7 3.9.7a4.9 4.9 0 0 0-.1 3.7A5.3 5.3 0 0 0 2.3 8c0 5.3 3.2 6.5 6.2 6.8a3.3 3.3 0 0 0-.9 2.6v3.8"/></svg>GitHub</a>
+          </div>
+          <ul class="hero-meta" aria-label="个人概览"><li>[学校 / 专业]</li><li>[所在城市]</li><li>[技术方向]</li></ul>
+        </div>
+        <aside class="profile-card" aria-label="个人信息卡片">
+          <div class="profile-top"><span class="mono">PROFILE / 01</span><span class="profile-symbol" aria-hidden="true">{ }</span></div>
+          <div class="profile-identity"><div class="avatar-placeholder" aria-label="头像占位">S<span>✳</span></div><div><h2>SHUtoECNU</h2><p>[身份 / 职业方向]</p></div></div>
+          <dl class="profile-fields">
+            <div><dt><span>01</span> FOCUS</dt><dd>[技术方向]</dd></div>
+            <div><dt><span>02</span> EDUCATION</dt><dd>[学校 / 专业]</dd></div>
+            <div><dt><span>03</span> BUILD</dt><dd>[代表项目]</dd></div>
+            <div><dt><span>04</span> CURRENT</dt><dd>[当前关注]</dd></div>
+          </dl>
+          <div class="profile-bottom"><span class="mono">SHUtoECNU.profile</span><span class="profile-star" aria-hidden="true">✧</span></div>
+        </aside>
+      </div>
+      <div class="container hero-foot"><span class="mono">ABOUT · PROJECTS · EXPERIENCE</span><a href="#about">关于我 <span aria-hidden="true">⌄</span></a></div>
+    </section>
+
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-heading"><h2 id="about-title"><span class="hash">#</span> 关于我</h2><span class="section-index">01 / ABOUT</span></div>
+        <div class="about-grid">
+          <div class="about-text"><p class="about-lead">[个人介绍]</p><p>[研究兴趣 / 职业方向]</p><p>[兴趣爱好]</p></div>
+          <div class="about-facts"><div><span class="fact-label">EDUCATION</span><strong>[教育背景]</strong></div><div><span class="fact-label">FOCUS</span><strong>[专注领域]</strong></div><div><span class="fact-label">CURRENTLY</span><strong>[当前状态]</strong></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tinted" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-heading"><h2 id="skills-title"><span class="hash">#</span> 能力栈</h2><span class="section-index">02 / SKILLS</span></div>
+        <div class="skills-grid">
+          <article class="skill-card"><span class="skill-symbol" aria-hidden="true">&lt;/&gt;</span><h3>编程语言</h3><div class="tags"><span>[编程语言]</span></div></article>
+          <article class="skill-card"><span class="skill-symbol" aria-hidden="true">{ }</span><h3>框架与技术</h3><div class="tags"><span>[框架与技术]</span></div></article>
+          <article class="skill-card"><span class="skill-symbol" aria-hidden="true">⌘</span><h3>研究与应用</h3><div class="tags"><span>[研究与应用方向]</span></div></article>
+          <article class="skill-card"><span class="skill-symbol" aria-hidden="true">_</span><h3>开发工具</h3><div class="tags"><span>[开发工具]</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-heading"><h2 id="projects-title"><span class="hash">#</span> 项目经历</h2><span class="section-index">03 / PROJECTS</span></div>
+        <div class="projects-grid">
+          <article class="project-card project-featured">
+            <div class="project-top"><span class="project-code">PROJECT_01</span><span class="featured-label">代表项目</span></div>
+            <h3>[代表项目名称]</h3><p class="project-description">[项目简介]</p>
+            <div class="project-details"><div><span class="detail-label">01 / 主要职责</span><p>[主要职责与个人贡献]</p></div><div><span class="detail-label">02 / 项目成果</span><p>[项目成果与亮点]</p></div></div>
+            <div class="project-footer"><div class="tags"><span>[技术栈]</span><span>[应用方向]</span></div><span class="placeholder-link">[项目链接]</span></div>
+          </article>
+          <article class="project-card"><div class="project-top"><span class="project-code">PROJECT_02</span><span class="project-symbol" aria-hidden="true">{ }</span></div><h3>[项目名称]</h3><p class="project-description">[项目简介]</p><p class="project-contribution">[个人贡献与项目成果]</p><div class="project-footer"><div class="tags"><span>[技术栈]</span></div><span class="placeholder-link">[项目链接]</span></div></article>
+          <article class="project-card"><div class="project-top"><span class="project-code">PROJECT_03</span><span class="project-symbol" aria-hidden="true">{ }</span></div><h3>[项目名称]</h3><p class="project-description">[项目简介]</p><p class="project-contribution">[个人贡献与项目成果]</p><div class="project-footer"><div class="tags"><span>[技术栈]</span></div><span class="placeholder-link">[项目链接]</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tinted" id="experience" aria-labelledby="experience-title">
+      <div class="container">
+        <div class="section-heading"><h2 id="experience-title"><span class="hash">#</span> 教育与经历</h2><span class="section-index">04 / EXPERIENCE</span></div>
+        <div class="timeline">
+          <article class="timeline-item"><span class="timeline-node" aria-hidden="true"></span><details open><summary><span class="experience-copy"><span class="experience-type">WORK / INTERNSHIP</span><span class="experience-title">[实习 / 工作经历]</span><span class="experience-meta">[公司 / 岗位] <span>·</span> [起止时间]</span></span><span class="disclosure-icon" aria-hidden="true"></span></summary><div class="experience-body"><p>[工作内容与职责]</p><p>[主要成果]</p></div></details></article>
+          <article class="timeline-item"><span class="timeline-node" aria-hidden="true"></span><details><summary><span class="experience-copy"><span class="experience-type">EDUCATION / 01</span><span class="experience-title">[教育经历]</span><span class="experience-meta">[学校 / 专业 / 学位] <span>·</span> [起止时间]</span></span><span class="disclosure-icon" aria-hidden="true"></span></summary><div class="experience-body"><p>[研究方向 / 主要课程]</p><p>[在校经历]</p></div></details></article>
+          <article class="timeline-item"><span class="timeline-node" aria-hidden="true"></span><details><summary><span class="experience-copy"><span class="experience-type">EDUCATION / 02</span><span class="experience-title">[教育经历]</span><span class="experience-meta">[学校 / 专业 / 学位] <span>·</span> [起止时间]</span></span><span class="disclosure-icon" aria-hidden="true"></span></summary><div class="experience-body"><p>[研究方向 / 主要课程]</p><p>[在校经历]</p></div></details></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="section-heading"><h2 id="contact-title"><span class="hash">#</span> 联系方式</h2><span class="section-index">05 / CONTACT</span></div>
+        <div class="contact-terminal"><div class="terminal-bar"><span class="terminal-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>contact.sh</span><span class="terminal-shell">~/SHUtoECNU</span></div><div class="terminal-body"><p class="terminal-command"><span>$</span> ./connect.sh</p><dl><div><dt>GitHub</dt><dd><a href="https://github.com/SHUtoECNU" target="_blank" rel="noopener noreferrer">github.com/SHUtoECNU</a></dd></div><div><dt>Email</dt><dd>[公开邮箱]</dd></div><div><dt>Location</dt><dd>[所在城市]</dd></div></dl><p class="terminal-command terminal-last"><span>$</span> <span class="cursor" aria-hidden="true">▍</span></p></div></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><p>© <span id="year">2026</span> SHUtoECNU</p><span class="footer-note">A little space on the internet.</span><a href="#home">返回顶部 <span aria-hidden="true">⌃</span></a></div></footer>
+</body>
+</html>
